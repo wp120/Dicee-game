@@ -7,6 +7,11 @@ h1{
     font-family: 'Ropa Sans', sans-serif;
 }
 
+#result{
+    font-size: 8rem;
+    color: #F29727;
+}
+
 .playerNo{
     font-family: 'Libre Baskerville', serif;
     font-family: 'Nova Cut', cursive;
@@ -59,20 +64,26 @@ h1{
 }
 
 @media (width<800px){
+    .upperContainer{
+        margin-top: 10vh;
+    }
 
     .lowerContainer{
         display: block;
     }
 
     .diceContainer{
-        margin-top: 10vh;
-        padding-bottom: 10vh;
+        margin-top: 5vh;
+        padding-bottom: 5vh;
     }
 
     .dice{
         padding: 3%;
     }
 
+    #result{
+        font-size: 5rem;
+    }
 }
 
 .invisible{
