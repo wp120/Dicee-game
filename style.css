@@ -1,0 +1,80 @@
+body{
+    background-color: #22A699;
+}
+
+h1{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+.playerNo{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Nova Cut', cursive;
+    /* font-family: 'Ropa Sans', sans-serif; */
+}
+
+.Cont{
+    display: flex;
+    gap: 5vh;
+    justify-content: center;
+    height: 30vh;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+
+.lowerContainer{
+    height: 40vh;
+    gap: 10vh;
+    margin-top: 0;
+}
+
+.diceContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    gap: 4vh;
+}
+
+.dice{
+    background-color: #F24C3D;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 5%;
+}
+
+.dots{
+    width: 60%;
+    height: 60%;
+    margin: 20%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+@media (width<800px){
+
+    .lowerContainer{
+        display: block;
+    }
+
+    .diceContainer{
+        margin-top: 10vh;
+        padding-bottom: 10vh;
+    }
+
+    .dice{
+        padding: 3%;
+    }
+
+}
+
+.invisible{
+    visibility: hidden;
+}
