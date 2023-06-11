@@ -64,6 +64,7 @@ h1{
 }
 
 @media (width<800px){
+
     .upperContainer{
         margin-top: 10vh;
     }
