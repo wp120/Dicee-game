@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if(val1<val2){
             document.querySelectorAll("svg")[1].classList.remove("invisible");
             document.querySelectorAll("svg")[0].classList.add("invisible");
-            res.innerHTML = "Player 2 Wins!";
+            res.textContent = "Player 2 Wins!";
         }
         else if(val1>val2){
             document.querySelectorAll("svg")[1].classList.add("invisible");
