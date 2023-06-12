@@ -66,8 +66,11 @@ h1{
 
 .lowest{
     display:flex;
-    justify-content:center;
+    flex-direction:column;
+    justify-content:flex-end;
     align-items:center;
+    margin-bottom:0;
+    padding-bottom:0;
 }
 
 @media (width<800px){
