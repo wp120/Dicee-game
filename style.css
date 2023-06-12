@@ -64,13 +64,14 @@ h1{
     border-radius: 50%;
 }
 
-.lowest{
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-end;
-    align-items:center;
-    margin-bottom:0;
-    padding-bottom:0;
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F29727;
+    color: black;
+    text-align: center;
 }
 
 @media (width<800px){
