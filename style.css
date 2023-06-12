@@ -64,6 +64,11 @@ h1{
     border-radius: 50%;
 }
 
+.lowest{
+    margin-bottom:0;
+    padding-botton:0;
+}
+
 @media (width<800px){
 
     .upperContainer{
