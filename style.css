@@ -65,8 +65,9 @@ h1{
 }
 
 .lowest{
-    margin-bottom:0;
-    padding-botton:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 @media (width<800px){
